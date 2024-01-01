@@ -1,0 +1,268 @@
+.contactcontainerwrap{
+    position: absolute;
+    /* border: 3px solid peru; */
+    width: 100%;
+    height: 100%;
+    top: 100px;
+    left: 0;
+}
+
+#contactheading
+{
+ font-size: 2.5rem;
+ font-family: 'Inter', sans-serif;
+ color: #60DD9A;
+ font-weight: 800;
+}
+.contactcontainer{
+    position: absolute;
+    width: 564px;
+    height: 500px;
+    top:100px;
+    right: 0;
+    /* border: 3px solid rgb(0, 153, 255); */
+    
+}
+
+.contacttext{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+input[type=submit] {
+    position: relative;
+    width: 280px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 90px;
+    border: 1px solid #00FFF0;
+    margin-left: 75px;
+    background: #4FAD7B;
+    top: 14px;
+    box-shadow: 0px 4px 4px 0px #0F8577;
+    cursor: pointer;
+}
+
+.clockphoto{
+    position: absolute;
+    max-width: 50vw;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
+    
+    top: 30%;
+    left: 0;
+}
+.textinput{
+    position: relative;
+    top: 5px;
+    border-radius: 90px;
+    border: 1px solid #021816;
+    width: 420px;
+    height: 35px;
+    box-shadow: 0px 4px 4px 0px #0F8577;
+}
+.textinput{
+    text-align: center;
+    line-height: 1.5px;
+    padding: 0px 5px;
+    margin-bottom: 15px;
+}
+#messageform{
+    border: 1px solid #021816;
+    border-radius:30px;
+    width:428px;
+    height:130px;
+    box-shadow: 0px 4px 4px 0px #0F8577;
+    text-align: center;
+    line-height: 1.5px;
+    padding: 0px 5px;
+    margin-bottom: 5px;
+}
+.imagetext{
+    color: #FFF;
+    font-family: 'Inter',sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 100px;
+}
+
+header {
+    display: flex;
+    margin: 1.5rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 48.88rem; */
+    
+}
+nav {
+    width: 31rem;
+    display: flex;
+    align-items: center;
+    gap: 2.8125rem;
+
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Red Hat Mono';
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+footer {
+    position: absolute;
+    top: 730px;
+    height: 36.875rem;
+    width: 90rem;
+    border-top: 3px solid #FFF;
+}
+.logo {
+    position: absolute;
+    top: 2.625rem; left: 4.375rem;
+    height: 5.5rem;
+    width: 5.5rem;
+}
+
+.ftContent {
+    position: absolute;
+    top: 2.625; left: 14.6875rem;
+
+    display: flex;
+    width: 70.875rem;
+    height: 32rem;
+    align-items: flex-start;
+    gap: 15rem;
+    flex-shrink: 0;
+}
+
+.ftLinkContainer {
+    display: flex;
+    height: 15.8125rem;
+    padding-right: 0.1875rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 3.6875rem;
+}
+
+.ftLink {
+    display: flex;
+    width: 13.1875rem;
+    height: 1.5rem;
+    align-items: flex-start;
+    gap: 2.0625rem;
+
+    color: #FFF;
+    font-family: Red Hat Mono;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.footerIcon {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.ftContact {
+    display: flex;
+    width: 13.1875rem;
+    height: 1.5rem;
+    align-items: flex-start;
+    gap: 2.0625rem;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.ftContactContainer {
+    display: flex;
+    height: 3.48438rem;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.socialsContainer {
+    display: flex;
+    width: 14rem;
+    height: 21.54688rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.25rem;
+}
+
+.ftNavMapContainer {
+    position: absolute;
+    top: 2.625rem;
+    /* left: 43rem; */
+    right: 0.25rem;
+    display: flex;
+    align-items: flex-start;
+    gap: -3.0625rem;
+}
+
+.ftNavContainer {
+    display: flex;
+    width: 18.5rem;
+    padding-right: 0.0625rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.ftNav {
+    display: flex;
+    width: 18.4375rem;
+    height: 5.125rem;
+    flex-direction: column;
+    justify-content: center;
+
+    color: #FFF;
+    font-family: Roboto Slab;
+    font-size: 2rem;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+.mapContainer {
+    display: flex;
+    width: 26.4375rem;
+    height: 32rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5625rem;
+}
+
+.ftLink .location {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 300;
+    width: 100%;
+}
+
+#copyright_txt {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-60%,0);
+    font-size: 0.9375;
+    color: #FFF;
+}
+
+#pageName {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    color: #ffffff;
+    margin-top: -2rem;
+}
