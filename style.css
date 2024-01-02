@@ -34,7 +34,7 @@ input[type=submit] {
     position: relative;
     width: 280px;
     height: 40px;
-    flex-shrink: 0;
+    
     border-radius: 90px;
     border: 1px solid #00FFF0;
     margin-left: 75px;
